@@ -157,7 +157,6 @@ void run_command(OS* terminal,vector<string> *cmd,string command){
    -------------------------------------------
    - DO NOT CHANGE ANYTHING IN THIS FUNCTION -
    -------------------------------------------
-*/
 void test_mlist(int argc, char** argv){
     MList list;
     //statically allocate these data obj to be used for this function
@@ -305,9 +304,7 @@ void test_mlist(int argc, char** argv){
 }
 
 
-/*
    This function tests a basic functionality of OS class.
-*/
 void test_os(int argc, char** argv){
     bool all = false;
     cout<<boolalpha;
@@ -364,3 +361,4 @@ void test_os(int argc, char** argv){
     	t.ls("-sort=size");cout<<endl;//c(0)
     }
 }
+*/
